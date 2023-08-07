@@ -7,13 +7,13 @@ import './style/pages.css'
 function Home() {
   return (
     <div >
-   
+
       <Homeslider></Homeslider>
- <FEATUREDBRANDS></FEATUREDBRANDS>  
-     <BESTSELLERS />
-    <FEATUREDCATEGORIES></FEATUREDCATEGORIES>
+      <FEATUREDBRANDS></FEATUREDBRANDS>
+      <BESTSELLERS />
+      <FEATUREDCATEGORIES></FEATUREDCATEGORIES>
     </div >
-  
+
   )
 }
 

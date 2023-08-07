@@ -41,7 +41,7 @@ function Homeslider() {
                     alt={""}
                 />
               
-  <div class="carousel-caption d-none d-md-block">
+  <div className="carousel-caption d-none d-md-block">
     <h3> carousel-caption </h3>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde cupiditate voluptatum nostrum id atque, ea modi eligendi sapiente. Perspiciatis ad natus corporis magnam animi molestia
         e accusantium similique ab veniam necessitatibus.</p>

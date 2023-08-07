@@ -68,7 +68,7 @@
 // //         </div>
 // //       </div>
 // //       <div className="d-flex" style={{ width: "150px", height: "40px" }}>
-// //         <select class="form-select" aria-label="Dropdown">
+// //         <select className="form-select" aria-label="Dropdown">
 // //           <option selected>Suggested</option>
 // //           <option value="option1">Option 1</option>
 // //           <option value="option2">Option 2</option>
@@ -86,63 +86,65 @@
 import React from 'react'
 
 function Featuerd() {
-    return(
-<div className="d-flex" style={{ width: "150px", height: "40px" }}>
-        <select class="form-select" aria-label="Dropdown">
-          <option selected>Suggested</option>
-          <option value="option1">Option 1</option>
-          <option value="option2">Option 2</option>
-          <option value="option3">Option 3</option>
-          <option value="option3">Option 4</option>
-          <option value="option3">Option 5</option>
-        </select>
-      </div>
-    )}
+  return (
+    <div className="d-flex" style={{ width: "150px", height: "40px" }}>
+      <select className="form-select" aria-label="Dropdown">
+        <option selected>Suggested</option>
+        <option value="option1">Option 1</option>
+        <option value="option2">Option 2</option>
+        <option value="option3">Option 3</option>
+        <option value="option3">Option 4</option>
+        <option value="option3">Option 5</option>
+      </select>
+    </div>
+  )
+}
 function Navpage() {
-    return(
-        <div className="  w-50">
-   
-    <nav aria-label="breadcrumb">
-      <ol class="breadcrumb m-0">
-        <li class="breadcrumb-item">
-          <a
-            href="#"
-            style={{ color: "black", textDecoration: "none" }}
-          >
-            Home
-          </a>
-        </li>
-        <li class="breadcrumb-item">
-          <a
-            href="#"
-            style={{ color: "black", textDecoration: "none" }}
-          >
-            woman
-          </a>
-        </li>
-        <li class="breadcrumb-item active" aria-current="page">
-          clothings
-        </li>
-      </ol>
-    </nav>
- 
+  return (
+    <div className="  w-50">
 
-  
-      </div>
-    )}
+      <nav aria-label="breadcrumb">
+        <ol className="breadcrumb m-0">
+          <li className="breadcrumb-item">
+            <a
+              href="#"
+              style={{ color: "black", textDecoration: "none" }}
+            >
+              Home
+            </a>
+          </li>
+          <li className="breadcrumb-item">
+            <a
+              href="#"
+              style={{ color: "black", textDecoration: "none" }}
+            >
+              woman
+            </a>
+          </li>
+          <li className="breadcrumb-item active" aria-current="page">
+            clothings
+          </li>
+        </ol>
+      </nav>
+
+
+
+    </div>
+  )
+}
 function ProductHeaders() {
-   
-   
+
+
   return (
     <div>
-   <header
-      className=" second "
-      style={{ display: "flex", justifyContent: "space-between" }}
-    >
-      <Navpage></Navpage>
-      
-      <Featuerd></Featuerd>
-    </header> 
+      <header
+        className=" second "
+        style={{ display: "flex", justifyContent: "space-between" }}
+      >
+        <Navpage></Navpage>
+
+        <Featuerd></Featuerd>
+      </header>
     </div>
   )
 }

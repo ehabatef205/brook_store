@@ -5,6 +5,7 @@ import { Card } from "react-bootstrap";
 //  import { useNavigate } from "react-router-dom";
 import { CartContext } from "../shoppingcart/shppingcartcontext";
     export const Wishlistitem = (props) => {
+      
     const { id, productname, price,images,old,color } = props.data;
     const { wishItems,
     addToWishlist,
